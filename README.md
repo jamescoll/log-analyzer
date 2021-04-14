@@ -21,5 +21,11 @@ This application uses:
 * Apache commons io - for scaling to very large file input sizes without issues
 * Spring Boot
 
+## Tests
+
+To run the application tests, execute
+
+*mvn test*
+
 
 
