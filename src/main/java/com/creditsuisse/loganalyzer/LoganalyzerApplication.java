@@ -17,9 +17,6 @@ public class LoganalyzerApplication implements ApplicationRunner {
     @Autowired
     private LogEntryReaderService logEntryReaderService;
 
-    @Autowired
-    private EventRepository eventRepository;
-
     public static void main(String[] args) {
 
         SpringApplication.run(LoganalyzerApplication.class, args);
